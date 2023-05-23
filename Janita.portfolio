@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yksinkertainen verkkosivupohja</title>
+  <style>
+    body {
+      background-color: #ffc0cb; /* Vaaleanpunainen väri */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .navbar a {
+      margin: 0 40px;
+      text-decoration: none;
+      color: #ba2929;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="etusivu.html">Etusivu</a> 
+      <a href="harjoituksia.html">Portfolio</a> 
+      <a href="#">Kuvia</a> 
+      <a href="laskin.html">Laskin</a> 
+    </div>
+    <h1>Tervetuloa Jasun verkkosivuille!</h1>
+    <p>Bliblaabbluu bloblbob beebeebooboobiiiiii jotain tekstiiii</p>
+  </div>
+
+  <script>
+    // Voit lisätä JavaScript-koodia tänne tarvittaessa
+  </script>
+</body>
+</html>
